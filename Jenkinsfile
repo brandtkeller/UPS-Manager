@@ -2,7 +2,7 @@ pipeline {
     agent none
  
    environment {
-         GITHUB_REPO = 'github.com/brandtkeller/nginx-loadbalancer.git'
+         GITHUB_REPO = 'github.com/brandtkeller/UPS-Manager.git'
     }
     options {
         skipStagesAfterUnstable()
